@@ -98,7 +98,7 @@ void robotMower(char board[][NUMBER_COLLUMNS]) {
 	srand(time(NULL));
 
 	do {
-		board[position.line][position.collumn] = 'T';
+		board[position.line][position.collumn] = 'R';
 		printf("Iteration nº%d\n", iter);
 		iter++;
 		printBoard(board);
